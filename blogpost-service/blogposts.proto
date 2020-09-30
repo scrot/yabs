@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package blogposts;
-option go_package = "https://github.com/scrot/yabs/blogpost-service/gen;gen";
+option go_package = "github.com/scrot/yabs/blogpost-service/gen;gen";
 
 import "google/protobuf/timestamp.proto";
 
